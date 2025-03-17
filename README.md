@@ -34,7 +34,7 @@ version: '3.8'
 
 services:
   commandarr:
-    image: yourdockerhubusername/commandarr:latest
+    image: samerzmd/commandarr:latest
     container_name: commandarr
     environment:
       TELEGRAM_TOKEN: "<your-telegram-token>"
