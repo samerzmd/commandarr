@@ -10,7 +10,7 @@ Thank you for considering contributing to **Commandarr**! Your contributions hel
 - Clone your fork locally:
 
 ```bash
-git clone https://github.com/your-username/commandarr.git
+git clone https://github.com/samerzmd/commandarr.git
 cd commandarr
 ```
 
