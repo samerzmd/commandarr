@@ -99,6 +99,8 @@ func HandleMessage(bot *tgbotapi.BotAPI, msg *tgbotapi.Message, cfg config.Confi
 		}
 		sendReply(bot, msg.Chat.ID, fmt.Sprintf("📺 Series '%s' added successfully!", series.Title))
 
+	case strings.HasPrefix(text, "/my_id"):
+		sendReply(bot, msg.Chat.ID, fmt.Sprintf("Your chat ID is: %d", msg.Chat.ID))
 	default:
 		sendReply(bot, msg.Chat.ID, "Unknown command. Please try again.")
 	}
